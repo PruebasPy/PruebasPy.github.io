@@ -3,7 +3,7 @@ document.getElementById("registroForm").addEventListener("submit", function(even
 
     var formData = new FormData(document.getElementById("registroForm"));
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", "https://formspree.io/proyectosdeprogramacionpruebas@gmail.com");
+    xhr.open("POST", "https://formspree.io/cuentaparaproyectospython@gmail.com");
     xhr.setRequestHeader("Accept", "application/json");
 
     xhr.onreadystatechange = function() {
